@@ -1,0 +1,5 @@
+// script.js
+function sendInput() {
+    const userInput = document.getElementById('userInput').value;
+    document.getElementById('response').innerText = `You said: ${userInput}`;
+}
